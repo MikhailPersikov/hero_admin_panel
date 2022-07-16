@@ -17,12 +17,6 @@
       "name": "Морской герой",
       "description": "Как аквамен, но не из DC",
       "element": "water"
-    },
-    {
-      "id": 123123,
-      "name": "Spiderman",
-      "description": "nothing",
-      "element": "fire"
     }
   ],
   "filters": [

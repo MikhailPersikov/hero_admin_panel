@@ -6,6 +6,7 @@
 // Изменять json-файл для удобства МОЖНО!
 // Представьте, что вы попросили бэкенд-разработчика об этом
 
+// activeFilterChanged
 const HeroesFilters = () => {
     return (
         <div className="card shadow-lg mt-4">
