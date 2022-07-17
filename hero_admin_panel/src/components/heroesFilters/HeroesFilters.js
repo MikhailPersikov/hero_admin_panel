@@ -11,8 +11,6 @@ const HeroesFilters = () => {
     const {filters, filtersLoadingStatus, activeFilter} = useSelector(state => state);
     const dispatch = useDispatch();
     const {request} = useHttp();
-    
-    console.log(filters,'before')
  
     useEffect(() => {
         dispatch(filtersFetching());
@@ -49,8 +47,6 @@ const HeroesFilters = () => {
                         >{label}</button>
         })
     }
-
-    console.log(filters,'after')
 
     const elements = renderFilters(filters);
 
